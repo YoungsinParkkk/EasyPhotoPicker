@@ -1,1 +1,1 @@
-# EasyPhotoPickerr
+# EasyPhotoPicker
