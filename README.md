@@ -9,7 +9,8 @@ Sample Code
 ```let cropImagePicker = EasyPhotoPickerViewController()
 cropImagePicker.setParent(viewController: self)
 cropImagePicker.pickerDelegate = self
-cropImagePicker.showPickerAlert() ```
+cropImagePicker.showPickerAlert() 
+```
 
 
 
