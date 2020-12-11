@@ -1,6 +1,6 @@
-## EasyPhotoPicker
+### EasyPhotoPicker
 
-#easy way how to get iOS Photo Libary for circle Profile Image
+##easy way how to get iOS Photo Libary for circle Profile Image
 
 ***
 Sample Code
