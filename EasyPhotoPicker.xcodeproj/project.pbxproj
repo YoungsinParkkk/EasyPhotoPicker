@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		981927912582153600A27785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981927902582153600A27785 /* AppDelegate.swift */; };
 		981927932582153600A27785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981927922582153600A27785 /* SceneDelegate.swift */; };
-		981927952582153600A27785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981927942582153600A27785 /* ViewController.swift */; };
+		981927952582153600A27785 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981927942582153600A27785 /* MainViewController.swift */; };
 		981927982582153600A27785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981927962582153600A27785 /* Main.storyboard */; };
 		9819279A2582153800A27785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981927992582153800A27785 /* Assets.xcassets */; };
 		9819279D2582153800A27785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9819279B2582153800A27785 /* LaunchScreen.storyboard */; };
+		981927A7258215D900A27785 /* EasyPhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981927A5258215D900A27785 /* EasyPhotoPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9819278D2582153600A27785 /* ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9819278D2582153600A27785 /* EasyPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		981927902582153600A27785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		981927922582153600A27785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		981927942582153600A27785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		981927942582153600A27785 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		981927972582153600A27785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		981927992582153800A27785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9819279C2582153800A27785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9819279E2582153800A27785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981927A5258215D900A27785 /* EasyPhotoPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EasyPhotoPickerViewController.swift; path = Core/EasyPhotoPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		981927842582153600A27785 = {
 			isa = PBXGroup;
 			children = (
-				9819278F2582153600A27785 /* ImagePicker */,
+				9819278F2582153600A27785 /* EasyPhotoPicker */,
 				9819278E2582153600A27785 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		9819278E2582153600A27785 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9819278D2582153600A27785 /* ImagePicker.app */,
+				9819278D2582153600A27785 /* EasyPhotoPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9819278F2582153600A27785 /* ImagePicker */ = {
+		9819278F2582153600A27785 /* EasyPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
 				981927902582153600A27785 /* AppDelegate.swift */,
 				981927922582153600A27785 /* SceneDelegate.swift */,
-				981927942582153600A27785 /* ViewController.swift */,
+				981927942582153600A27785 /* MainViewController.swift */,
+				981927A5258215D900A27785 /* EasyPhotoPickerViewController.swift */,
 				981927962582153600A27785 /* Main.storyboard */,
 				981927992582153800A27785 /* Assets.xcassets */,
 				9819279B2582153800A27785 /* LaunchScreen.storyboard */,
 				9819279E2582153800A27785 /* Info.plist */,
 			);
-			path = ImagePicker;
+			path = EasyPhotoPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9819278C2582153600A27785 /* ImagePicker */ = {
+		9819278C2582153600A27785 /* EasyPhotoPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 981927A12582153800A27785 /* Build configuration list for PBXNativeTarget "ImagePicker" */;
+			buildConfigurationList = 981927A12582153800A27785 /* Build configuration list for PBXNativeTarget "EasyPhotoPicker" */;
 			buildPhases = (
 				981927892582153600A27785 /* Sources */,
 				9819278A2582153600A27785 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = ImagePicker;
+			name = EasyPhotoPicker;
 			productName = ImagePicker;
-			productReference = 9819278D2582153600A27785 /* ImagePicker.app */;
+			productReference = 9819278D2582153600A27785 /* EasyPhotoPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 981927882582153600A27785 /* Build configuration list for PBXProject "ImagePicker" */;
+			buildConfigurationList = 981927882582153600A27785 /* Build configuration list for PBXProject "EasyPhotoPicker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9819278C2582153600A27785 /* ImagePicker */,
+				9819278C2582153600A27785 /* EasyPhotoPicker */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981927952582153600A27785 /* ViewController.swift in Sources */,
+				981927952582153600A27785 /* MainViewController.swift in Sources */,
 				981927912582153600A27785 /* AppDelegate.swift in Sources */,
+				981927A7258215D900A27785 /* EasyPhotoPickerViewController.swift in Sources */,
 				981927932582153600A27785 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		981927882582153600A27785 /* Build configuration list for PBXProject "ImagePicker" */ = {
+		981927882582153600A27785 /* Build configuration list for PBXProject "EasyPhotoPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9819279F2582153800A27785 /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		981927A12582153800A27785 /* Build configuration list for PBXNativeTarget "ImagePicker" */ = {
+		981927A12582153800A27785 /* Build configuration list for PBXNativeTarget "EasyPhotoPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				981927A22582153800A27785 /* Debug */,
