@@ -3,10 +3,10 @@
 Easy way how to get iOS Photo Libary for circle Profile Image
 
 
-#Sample Code
+Sample Code
 
-//Show the picker
 ```
+//Show the picker
 let cropImagePicker = EasyPhotoPickerViewController()
 cropImagePicker.setParent(viewController: self)
 cropImagePicker.pickerDelegate = self
