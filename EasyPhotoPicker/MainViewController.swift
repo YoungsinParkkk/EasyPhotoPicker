@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func fire (){
+    @IBAction func showPicker (){
         //Show the picker
         let cropImagePicker = EasyPhotoPickerViewController()
         cropImagePicker.setParent(viewController: self)
