@@ -1,0 +1,6 @@
+module Pods_EasyPhotoPicker {
+  umbrella header "Pods-EasyPhotoPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
